@@ -55,6 +55,7 @@ function App() {
   }, [sectionIds])
 
   return (
+    // Test
     <div className='mt-14 mx-auto max-w-6xl grid gap-y-5 lg:grid-cols-[40%_60%]'>
       <LeftSection navBarItems={navBarItems} currentSection={currentSection} />
       <RightSection onInitial={addSectionIds} />
@@ -63,3 +64,4 @@ function App() {
 }
 
 export default App
+
