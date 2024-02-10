@@ -1,21 +1,20 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import picCloud from "../assets/CloudRemoving.png"
+import picPortfolio from "../assets/portfolio.png"
 
 export const data = [
     {
-        date: "2022-2023",
+        date: "2024",
         title: "Profolio",
         link: "",
         material: [
-            {type: faGithub , link:""},
+            {type: faGithub , link:"https://github.com/sppcoder2939/Portfolio"},
         ],
         description: [
-            "This is my porfolio",
-            "Just Testing"
+            "This is my portfolio",
         ],
         skills: [
-            ["React", "CSS"],
+            ["React", "CSS", "HTML"],
         ],
-        picture: picCloud,
+        picture: picPortfolio,
     },
 ]
